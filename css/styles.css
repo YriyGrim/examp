@@ -1,0 +1,16 @@
+/* Общие стили */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Стили для маленьких экранов */
+@media (max-width: 576px) {
+    .navbar-brand {
+        font-size: 1rem;
+    }
+}
+/* Стиль для изображений */
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
